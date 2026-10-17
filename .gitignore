@@ -1,0 +1,31 @@
+﻿# Dependencies
+node_modules/
+
+# Build output
+**/dist/
+**/build/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*firebase-adminsdk*.json
+
+# React Native / Android / iOS
+.gradle/
+.kotlin/
+Pods/
+DerivedData/
+*.keystore
+*.hprof
+*.jsbundle
+.metro-health-check*
+
+# Tooling and OS files
+.DS_Store
+.idea/
+.vscode/
+npm-debug.log*
+yarn-error.log*
